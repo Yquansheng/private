@@ -1,0 +1,218 @@
+@import url("base.css");
+header{
+	width: 7.5rem;
+	height: 1.2rem;
+	background-image: linear-gradient(89deg,#f90e13 0%,#ff4f01 100%),linear-gradient(#ff0000,#ff0000);
+	background-blend-mode: normal,normal;
+	padding-top: 0.24rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+header div{
+	width: 7.5rem;
+	height: 0.38rem;
+	padding: 0rem 0.24rem;
+	font-size: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+header div i{
+	color: white;
+}
+.main{
+	width: 7.02rem;
+	height: 9.1rem;
+	margin: 1.44rem 024rem 0.24rem 0.24rem;
+}
+.main h3{
+	font-size: 0.36rem;
+	color: #000000;
+	opacity: 0.8;
+	line-height: 1.5;
+}
+.main .miaoshu{
+	font-size: 0.2rem;
+	color: black;
+	opacity: 0.5;
+	display: flex;
+	justify-content: space-between;
+	line-height: 2;
+}
+.main img{
+	width: 7.02rem;
+	height: 4rem;
+	margin: 0.24rem 0rem;
+}
+.main p{
+	font-size: 0.24rem;
+	opacity: 0.9;
+	line-height: 1.5;
+}
+.tui{
+	width: 7.5rem;
+	height: 0.24rem;
+	margin: 0.24rem 0rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.2rem;
+}
+.tui img{
+	width: 3.1rem;
+	height: 0.24rem;
+}
+.list{
+	width: 7.5rem;
+	height: 9.64rem;
+	background-color: #F5F5F5;
+	padding: 0.24rem 0.5rem;
+	
+}
+.list ul{
+	width: 100%;
+	height: 8.24rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.list ul li{
+	width: 3.13rem;
+	height: 3.75rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.04rem 0.04rem 0rem rgba(204, 202, 198, 0.6);
+	border-radius: 0.15rem;
+	margin-right: 0.24rem;
+	margin-bottom: 0.24rem;
+}
+.list ul li:nth-child(2n){
+	margin-right: 0rem;
+}
+.foodThumb{
+	width: 3.14rem;
+	height: 2.14rem;
+	background-color: #ff0000;
+	border-radius: 0.15rem;
+}
+.foodThumb img{
+	width: 100%;
+	height: 100%;
+}
+.wen{
+	height: 1.61rem;
+	width: 100%;
+	padding: 0.12rem ;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.wen h4{
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: black;
+	opacity: 0.9;
+}
+.wen p{
+	font-size: 0.2rem;
+	font-weight: normal;
+	color: black;
+	opacity: 0.7;
+}
+.wen span{
+	font-size: 0.18rem;
+	font-weight: normal;
+	color: black;
+	opacity: 0.5;
+	float: left;
+}
+.wen div{
+	width: 100%;
+	height: 0.4rem;
+	float: left;
+	display: flex;justify-content: space-between;
+}
+.wen div span{
+	font-size: 0.3rem;
+	font-weight: normal;
+	color: #FF4E01;
+	line-height: 0.4rem;
+}
+.wen div a i{
+	display: block;
+	font-size: 0.4rem;
+	color: #F81414;
+	line-height: 0.4rem;
+}
+.wen div a i1{
+	display: block;
+	font-size: 0.4rem;
+	color: #FF4E01;
+	line-height: 0.4rem;
+}
+.footer{
+	width:7.5rem;
+	height: 1.26rem;
+	background-color: pink;
+	position: relative;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer .tishi{
+	width: 7.5rem;
+	height: 0.28rem;
+	background-color: #FA73B2;
+	text-align: center;
+}
+.footer .tishi{
+	font-size: 0.24rem;
+	color: #FCC0DA;
+	line-height: 0.28rem;
+}
+.footer .tab{
+	width: 7.5rem;
+	height: 0.98rem;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .img1{
+	width: 0.81rem;
+	height: 0.81rem;
+	z-index: 2;
+	position: absolute;
+	left: 0.35rem;
+	bottom: 0.4rem;
+}
+.footer .img2{
+	width: 0.31rem;
+	height: 0.31rem;
+	position: absolute;
+	left: 0.78rem;
+	bottom: 1rem;
+	z-index: 3;
+}
+.footer .tab p{
+	text-indent: 5.5em;
+	font-size: 0.24rem;
+	color: white;
+	line-height: 1.5;
+}
+.footer .tab .left{
+	width: 4.86rem;
+	height: 0.98rem;
+	background-color:#FF4E01 ;
+}
+.footer .tab .qiang{
+	width: 2.64rem;
+	height: 0.98rem;
+	background-color: #FA6E31;
+	float: right;
+	text-align: center;
+}
+.footer .tab .qiang a {
+	display: block;
+	font-size: 0.36rem;
+	color: white;
+	line-height: 0.98rem;
+	text-align: center;
+	
+}

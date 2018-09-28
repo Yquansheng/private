@@ -1,0 +1,162 @@
+@import url("base.css");
+body{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: linear-gradient(89deg, #f90e13 0%,#ff4f01 100%) 
+}
+img{
+	width: 1.39rem;
+	height: 1.4rem;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 1.37rem;
+}
+.bg{
+	width: 5.17rem;
+	height: 0.29rem;
+	background-color: #f80000;
+	border-radius: 0.15rem;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 3.51rem;
+}
+.main{
+	width: 5.65rem;
+	height: 5.97rem;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 8px 0px #d7d7d7;
+	border-radius: 15px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	top: 3.63em;
+	padding: 0.95rem 0.48rem;
+	position: relative;
+}
+.text1{
+	width: 4.7rem;
+	height: 0.52rem;
+	border-radius: 0.15rem;
+	border: solid 1px #bfbfbf;
+	font-size: 0.2rem;
+	color: #B8B8B8;
+	font-family: PingFang-SC-Heavy;
+	text-indent: 2em;
+	float: left;
+	margin-bottom: 0.5rem;
+}
+.main-yan{
+	width: 4.7rem;
+	height: 0.52rem;
+	margin-bottom: 0.5rem;
+}
+.text2{
+	width: 2.1rem;
+	height: 0.52rem;
+	border-radius: 0.15rem;
+	border: solid 1px #bfbfbf;
+	font-size: 0.2rem;
+	color: #B8B8B8;
+	font-family: PingFang-SC-Heavy;
+	text-indent: 2em;
+	float: left;
+	margin-bottom: 0.5rem;
+}
+.main .main-yan a {
+	display: inline-block;
+	width: 2.1rem;
+	height: 0.52rem;
+	font-size: 0.2rem;
+	color: white;
+	background-color: #fc2f0a;
+	text-align: center;
+	line-height: 0.52rem;
+	border-radius: 0.15rem;
+	float: right;
+}
+.main >a{
+	display: inline-block;
+	width: 4.7rem;
+	height: 0.52rem;
+	font-size: 0.2rem;
+	color: white;
+	background-color: #fc2f0a;
+	text-align: center;
+	line-height: 0.52rem;
+	border-radius: 0.15rem;
+	margin-bottom: 0.5rem;
+	float: left;
+}
+.main-z {
+	width: 4.7rem;
+	height: 0.18rem;
+	float: left;
+}
+.main .main-z a{
+	font-size: 0.18rem;
+	color: #B8B8B8;
+}
+.main .main-z a:last-child{
+	float: right;
+}
+.main .main-z a:first-child{
+	float: left;
+}
+i{
+	position: absolute;
+	right: 0.67rem;
+	top: 3.08rem;
+}
+.main>.yuan1,.yuan2,.yuan3{
+	width: 0.14rem;
+	height: 0.14rem;
+}
+.yuan1{
+	position: absolute;
+	left: -4.1em;
+	top: 1.17rem;
+}
+.yuan2{
+	position: absolute;
+	left: -4.1em;
+	top: 2.18rem;
+}
+.yuan3{
+	position: absolute;
+	left: -4.1em;
+	top: 3.2rem;
+}
+p{
+	font-size: 0.22rem;
+	color: white;
+	opacity: 0.5;
+	position: absolute;
+	left: 3.13rem;
+	top: 10.25rem;
+}
+.qq{
+	width: 0.56rem;
+	height: 0.66rem;
+	position: absolute;
+	left: -4rem;
+	top: 11rem;
+}
+.vx{
+	width: 0.85rem;
+	height: 0.69rem;
+	position: absolute;
+	left: 0rem;
+	top: 11rem;
+}
+.vb{
+	width: 0.75rem;
+	height: 0.6rem;
+	position: absolute;
+	left: 4rem;
+	top: 11rem;
+}

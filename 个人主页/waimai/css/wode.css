@@ -1,0 +1,252 @@
+@import url("base.css");
+header{
+	width: 7.5rem;
+	height: 0.88rem;
+	background-image: linear-gradient(89deg,#f90e13 0%,#ff4f01 100%),linear-gradient(#ff0000,#ff0000);
+	background-blend-mode: normal,normal;
+	padding: 0rem 0.24rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+h1{
+	font-size: 0.48rem;
+	font-weight: normal;
+	color: white;
+}
+header i{
+	font-size: 0.48rem;
+	color: white;
+}
+.top{
+	width: 7.5rem;
+	height: 2.54rem;
+	background-image: linear-gradient(89deg,#f90e13 0%,#ff4f01 100%),linear-gradient(#ff0000,#ff0000);
+	background-blend-mode: normal,normal;
+}
+.ad{
+	width: 7.02rem;
+	height: 1.75rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.04rem 0.04rem 0rem rgba(204, 202, 198, 0.6);
+	border-radius: 0.15rem;	
+	position: absolute;
+	left: 0.24rem;
+	top: 1.12rem;
+	display: flex;
+	justify-content: space-between;
+}
+.touxiang{
+	width: 1.42rem;
+	height: 100%;
+	text-align: center;
+}
+.touxiang img{
+	width: 0.94rem;
+	height: 0.94rem;
+	margin-top: 0.24rem;
+}
+.xinxi{
+	height: 100%;
+	flex: 1;
+	padding: 0.24rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.xinxi h2{
+	font-size: 0.26rem;
+	font-weight: normal;
+	color: #ff4e01;
+}
+.xinxi div{
+	width: 100%;
+	height: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xinxi span {
+	font-size: 0.22rem;
+	color: black;
+	opacity: 0.6;
+}
+.xinxi span i1 {
+	color: #ff4e01;
+	font-size: 0.36rem;
+	float: left;
+}
+.xinxi span i2 {
+	color: #ff4e01;
+	font-size: 0.36rem;
+	float: left;
+}
+.xinxi p{
+	font-size: 0.22rem;
+	color: black;
+	opacity: 0.4;
+}
+.xinxi p i{
+	color: deepskyblue;
+}
+.ku{
+	width: 7.02rem;
+	height: 1.36rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.04rem 0.04rem 0rem rgba(204, 202, 198, 0.6);
+	border-radius: 0.15rem;	
+	position: absolute;
+	left: 0.24rem;
+	top: 3.11rem;	
+}
+.ku ul {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.ku ul li{
+	width: 2.34rem;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.ku ul li span{
+	font-size: 0.18rem;
+	color: black;
+	opacity: 0.5;
+}
+.ku ul li span i1{
+	color: #FF3101;
+}
+.ku ul li p{
+	font-size: 0.3rem;
+	color: #FF4E01;
+	margin-top: 0.12rem;
+}
+.ku ul li span i2{
+	color: dodgerblue;
+}
+.ku ul li span i3{
+	color: #ffd800;
+}
+.main{
+	width: 7.5rem;
+	height: 9.52rem;
+	background-color: #F5F5F5;
+}
+.main-t{
+	width: 7.02rem;
+	height: 2.68rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.04rem 0.04rem 0rem rgba(204, 202, 198, 0.6);
+	border-radius: 0.15rem;	
+	margin: 0.24rem;
+	position: absolute;
+	top: 4.47rem;
+}
+.main-t ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main-t ul li{
+	width: 100%;
+	height:0.88rem;
+	padding: 0.24rem;
+	border-bottom: solid 0.01rem #EAE7E7;
+	font-size: 0.2rem;
+}
+.main-t ul li i1{
+	color: deepskyblue;
+	font-size: 0.4rem;
+}
+.main-t ul li i2{
+	color: #F6418C;
+	font-size: 0.4rem;
+}
+.main-t ul li i3{
+	color: #6AE149;
+	font-size: 0.4rem;
+}
+.main-t ul li span{
+	font-size: 0.3rem;
+	opacity: 0.6;
+}
+.main-b{
+	width: 7.02rem;
+	height: 2.68rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.04rem 0.04rem 0rem rgba(204, 202, 198, 0.6);
+	border-radius: 0.15rem;	
+	margin: 0.24rem;
+	position: absolute;
+	top: 7.39rem;
+}
+.main-b ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main-b ul li{
+	width: 100%;
+	height:0.88rem;
+	padding: 0.24rem;
+	border-bottom: solid 0.01rem #EAE7E7;
+	font-size: 0.2rem;
+}
+.main-b ul li i1{
+	color: deepskyblue;
+	font-size: 0.4rem;
+}
+.main-b ul li i2{
+	color: #F6418C;
+	font-size: 0.4rem;
+}
+.main-b ul li i3{
+	color: #6AE149;
+	font-size: 0.4rem;
+}
+.main-b ul li span{
+	font-size: 0.3rem;
+	opacity: 0.6;
+}
+.tab{
+	width: 7.5rem;
+	height: 0.98rem;
+	background-color: #ffffff;
+	padding: 0.24rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.tab ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.tab ul li{
+	width: 25%;
+	height:0.98rem;
+	text-align: center;
+	font-size: 0.2rem;
+	/*line-height: 0.98rem;*/
+}
+.tab ul li a{
+	display: block;
+	width: 1.8rem;
+	height: 0.98rem;
+	color: #B2B2B2;
+}
+.tab ul li a i{
+	font-size: 0.3rem;
+}
+.tab ul li a.hot{
+	color: #FE3363;
+}

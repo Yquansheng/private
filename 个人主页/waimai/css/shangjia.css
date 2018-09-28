@@ -1,0 +1,241 @@
+@import url("base.css");
+header{
+	width: 7.5rem;
+	height: 1.2rem;
+	background-image: linear-gradient(89deg,#f90e13 0%,#ff4f01 100%),linear-gradient(#ff0000,#ff0000);
+	background-blend-mode: normal,normal;
+	padding-top: 0.24rem;
+}
+header div{
+	width: 7.02rem;
+	height: 0.38rem;
+	margin: auto;
+	font-size: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+header div i{
+	color: white;
+}
+.top{
+	width: 7.5rem;
+	height: 2.88rem;
+	padding: 0.86rem 0rem 0.24rem 0rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #D7D7D7;
+	line-height: 1.5;
+}
+.b2{
+	width: 1.24rem;
+	height: 1.24rem;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0.6rem;
+}
+.top h2{
+	font-size: 0.3rem;
+	font-weight: normal;
+	color: black;
+}
+.top span img{
+	width: 1.25rem;
+	height: 0.24rem;
+}
+.lijian{
+	width: 7.5rem;
+	height: 0.55rem;
+	margin-top: 0.12rem;
+	border-top: solid #F2F2F2 0.02rem;
+	border-bottom: solid #F2F2F2 0.02rem;;
+}
+ .kuai{
+ 	width: 7.5rem;
+ 	height: 0.24rem;
+ 	background-color: #F5F5F5;
+ }
+.xinxi{
+	width: 7.5rem;
+	height: 0.25rem;
+	margin: 0.24rem 0rem;
+	padding: 0rem 0.24rem;
+}
+.xinxi ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.xinxi ul li{
+	width: 1rem;
+	height: 0.24rem;
+	background-color: white;
+	font-size: 0.2rem;
+}
+.xinxi ul li a{
+	font-size: 0.24rem;
+	color: #1C1C1C;
+}
+.main{
+	width: 7.02rem;
+	height: 8.02rem;
+	margin: 0rem 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.main-l{
+	width: 1.6rem;
+	height: 7.14rem;
+	margin-right: 0.24rem;
+	background-color: #F5F5F5;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main-l ul{
+	width: 100%;
+	height: 100%;
+	font-size: 0.2rem;
+	overflow: auto;
+}
+.main-l ul li{
+	width:1.6rem;
+	height: 0.89rem;
+	text-align: center;
+	color: #363636;
+}
+.main-l ul li a{
+	display: block;
+	font-size: 0.24rem;
+	color: #363636;
+	line-height: 0.89rem;
+}
+.main-l ul li a.hot{
+	color: white;
+	background-color: #FC4B22;
+}
+.main-r{
+	width: 5.02rem;
+	height: 7.14rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.main-r ul{
+	width: 100%;
+	height: 100%;
+	font-size: 02rem;
+	overflow: auto;
+}
+.main-r ul li{
+	width:5.02rem;
+	height: 1.78rem;
+	padding: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 0.02rem #F5F5F5;
+	position: relative;
+}
+
+.main-r ul li .tu{
+	width: 1.24rem;
+	height: 1.24rem;
+	margin-right: 0.24rem;
+}
+.main-r ul li .tu img{
+	display: block;
+	width: 1.24rem;
+	height: 1.24rem;
+}
+.main-r ul li a .wen{
+	width: 2.6rem;
+	height: 1.78rem;
+}
+.main-r ul li a .wen h3{
+	color: #000000;
+	font-weight: normal;
+}
+.main-r ul li a .wen span{
+	font-size: 0.24rem;
+	color: #FC8066;
+}
+.main-r ul li a{
+	font-size: 0.2rem;
+	color: #9D9D9D;
+	line-height: 2;
+	display: flex;
+	justify-content: space-between;
+}
+.main-r ul li i{
+	color: #FF4E01;
+	line-height:1.3rem ;
+	position: absolute;
+	right: 0;
+}
+.main-r ul li i1{
+	color: #FF4E01;
+	line-height:1.3rem ;
+	position: absolute;
+	right: 0.72rem;
+}
+.footer{
+	width:7.5rem;
+	height: 1.26rem;
+	background-color: pink;
+	position: relative;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer .tishi{
+	width: 7.5rem;
+	height: 0.28rem;
+	background-color: #FA73B2;
+	text-align: center;
+}
+.footer .tishi{
+	font-size: 0.24rem;
+	color: #FCC0DA;
+	line-height: 0.28rem;
+}
+.footer .tab{
+	width: 7.5rem;
+	height: 0.98rem;
+	display: flex;
+	justify-content: space-between;
+}
+.footer img{
+	width: 0.81rem;
+	height: 0.81rem;
+	z-index: 2;
+	position: absolute;
+	left: 0.35rem;
+	bottom: 0.4rem;
+}
+.footer .tab p{
+	text-indent: 5.5em;
+	font-size: 0.24rem;
+	color: white;
+	line-height: 1.5;
+}
+.footer .tab .left{
+	width: 4.86rem;
+	height: 0.98rem;
+	background-color:#FF4E01 ;
+}
+.footer .tab .qiang{
+	width: 2.64rem;
+	height: 0.98rem;
+	background-color: #FA6E31;
+	float: right;
+	text-align: center;
+}
+.footer .tab .qiang a{
+	display: block;
+	font-size: 0.36rem;
+	color: white;
+	line-height: 0.98rem;
+}

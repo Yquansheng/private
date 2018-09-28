@@ -1,0 +1,48 @@
+@import url("base.css");
+header{
+	width: 7.5rem;
+	height: 13.34rem;
+}
+header img{
+	display: block;
+	width: 7.5rem;
+	height: 13.34rem;
+}
+h1{
+	font-size: 0.44rem;
+	color: white;
+	position: absolute;
+	left: 1.785rem;
+	margin: auto;
+	top: 1.64rem;
+}
+h2{
+	font-size: 0.36rem;
+	color: white;
+	opacity: 0.6;
+	position: absolute;
+	left: 2.2rem;
+	top: 2.66rem;
+}
+h3{
+	font-size: 0.3rem;
+	color: white;
+	opacity: 0.3;
+	position: absolute;
+	left: 2.63rem;
+	top: 3.48rem;
+}
+.img1{
+	width: 1.99rem;
+	height: 0.75rem;
+	position: absolute;
+	left: 0.92rem;
+	bottom: 1.26rem;
+}
+.img2{
+	width: 1.99rem;
+	height: 0.75rem;
+	position: absolute;
+	right: 0.92rem;
+	bottom: 1.26rem;
+}
